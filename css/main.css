@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Vogue';
+    src: url('Vogue.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cosmic';
+    src: url('PLANK___.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mono';
+    src: url('MONO.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Core';
+    src: url('Core.otf') format('truetype');
+}
+
+.head {
+    font-family: 'Core', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    position: relative;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+img {
+    width: 1000px;
+    height: 655px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -675px;
+    border: 7px solid #ffffff;
+}
+.h1 {
+    left: 50px;
+    color: #ffffff;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Core';
+    border: 4px solid #000000;
+    padding: 10px;
+    width: 600px;
+    height: 630px;
+}
+.background {
+    background-image: url('back.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .background:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.67); 
+  }
+  
+  
+  
